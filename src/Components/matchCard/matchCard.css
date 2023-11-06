@@ -1,0 +1,100 @@
+.matchCard {
+  width: 30%;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.571);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+.matchNum {
+  width: 29%;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+}
+.seriesName {
+  width: 56%;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 4px;
+}
+.format {
+  background-color: rgba(0, 0, 255, 0.655);
+  color: white;
+  border-radius: 20%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+}
+.teams {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.teamName {
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.result {
+  color: blue;
+  opacity: 50%;
+  font-family: "Montserrat", sans-serif;
+  margin: 1rem;
+  flex: 1;
+}
+
+.pointstable {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: black;
+  opacity: 60%;
+  transition: all 2s;
+  background-color: lightgray;
+  padding: 6px 10px 6px 10px;
+  margin-top: 10px;
+}
+.pointstable:hover {
+  text-decoration: underline;
+}
+
+.vs {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.pointstable > a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  .matchCard {
+    width: 44%;
+    min-height: 200px;
+  }
+}
+
+@media screen and    (min-width: 460px) and (max-width: 767px) {
+  .matchCard {
+    width: 70%;
+     min-height: 220px;
+  }
+}
+
+@media screen and  (max-width: 460px) {
+  .matchCard {
+    width: 90%;
+     min-height: 200px;
+  }
+}

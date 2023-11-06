@@ -1,0 +1,15 @@
+.matches{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 2rem;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+

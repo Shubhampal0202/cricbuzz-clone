@@ -1,0 +1,35 @@
+.navbar {
+  height: 3.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #009270e5;
+}
+
+.navbar > .logo {
+  margin-left: 3rem;
+  border-radius: 10px;
+}
+.navbar > .logo > img {
+  width: 70px;
+  border-radius: 10px;
+}
+.home-page {
+  margin-right: 3rem;
+}
+.home-page > a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+}
+.home-page > a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 460px) {
+  .home-page > a {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,123 @@
+.matchDetails {
+  margin: 1rem auto;
+  width: 70%;
+}
+.status {
+  color: blue;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 10px;
+  margin-left: 1rem;
+}
+.inning {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.676);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 8px;
+}
+ .matchDetails table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.Team-heading {
+  background-color: rgb(199, 191, 191);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#Team-firstChild {
+  width: 55%;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.Team-heading > * {
+  width: 9%;
+  text-align: center;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+#TeamDataFirstChild {
+  width: 55%;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.Team-data > * {
+  width: 9%;
+  text-align: center;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Team-data {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bowl-head {
+  background-color: rgb(199, 191, 191);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+}
+.bowl-head > * {
+  width: 9%;
+  text-align: center;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+#bowl-headChild {
+  width: 55%;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+.bowlData {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+ 
+}
+#bowlDataChild {
+  width: 55%;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+   color: blue;
+   font-size: 14px;
+}
+
+.bowlData > * {
+  width: 9%;
+  text-align: center;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.outDesc {
+  margin-left: 1rem;
+  display: inline-block;
+  width: 55%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+.batter {
+  color: blue;
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  width: 40%;
+  font-size: 14px;
+}
+.extraCont {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.extraTitle{
+    margin-left: 10px;
+}
+.extraValue{
+    margin-right: 4rem;
+}

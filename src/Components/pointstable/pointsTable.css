@@ -1,0 +1,51 @@
+.table-cont {
+  width: 60%;
+  margin: 10px auto;
+}
+.h3 {
+  margin-left: 10px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 1rem;
+}
+.points-table {
+  width: 100%;
+}
+.points-table > thead > tr {
+  background-color: rgb(199, 191, 191);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 8px;
+}
+
+.points-table > thead > tr > #first {
+  width: 40%;
+}
+.points-table > thead > tr > * {
+  width: 9%;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+.points-table > tbody > tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 8px 0;
+}
+.points-table > tbody > :nth-of-type(odd) {
+  background-color: #e9ecef;
+}
+.points-table > tbody > :nth-of-type(even) {
+  background-color: #f8f9fa;
+}
+
+.points-table > tbody > tr > #first {
+  width: 40%;
+}
+.points-table > tbody > tr > * {
+  width: 9%;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  padding: 8px;
+}

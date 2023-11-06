@@ -1,0 +1,36 @@
+.tabsCont {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.tabsCont > div {
+  margin: 10px;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  font-weight: 400;
+  text-transform: capitalize;
+  background-color: #4950572c;
+  padding: 4px 10px 4px 10px;
+  border-radius: 14px;
+}
+
+#selected {
+  background-color: #495057;
+  color: white;
+  padding: 4px 10px 4px 10px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 460px) {
+  .tabsCont {
+    margin-left: 10px;
+  }
+  .tabsCont > div {
+    font-size: 0.8rem;
+    margin: 4px;
+  }
+}
