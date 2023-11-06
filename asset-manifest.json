@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cricbuzz-clone/static/css/main.a5049be7.css",
+    "main.js": "/cricbuzz-clone/static/js/main.d67d9c19.js",
+    "static/js/787.becc0d59.chunk.js": "/cricbuzz-clone/static/js/787.becc0d59.chunk.js",
+    "index.html": "/cricbuzz-clone/index.html",
+    "main.a5049be7.css.map": "/cricbuzz-clone/static/css/main.a5049be7.css.map",
+    "main.d67d9c19.js.map": "/cricbuzz-clone/static/js/main.d67d9c19.js.map",
+    "787.becc0d59.chunk.js.map": "/cricbuzz-clone/static/js/787.becc0d59.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5049be7.css",
+    "static/js/main.d67d9c19.js"
+  ]
+}
